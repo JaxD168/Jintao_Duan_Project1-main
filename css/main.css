@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Catamaran:wght@100;400&family=Lato&family=Merriweather:ital@1&display=swap');
+body {
+    font-family: 'Heebo', sans-serif;
+    font: 20px;
+    color:black;
+    font-weight: 100;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#container {
+    width: 428px;
+    margin: 20px auto;
+    border: solid 1px black;
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns:repeat(4, 85px) ;
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+p {
+    line-height: 30px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 56px;
+    letter-spacing:3 ;
+    background-color: rgb(250, 214, 200);
+    color: black;
+    padding: 15px;
+    box-shadow: 5px 5px 0 orangered;
+    border-radius: 10px;
+}
+
+h3 {
+    font-family: 'Bangers';
+    font-size: 42px;
+    letter-spacing: 1;
+    margin-bottom: 15px;
+}
+img {
+    border-radius: 6px;
+}
